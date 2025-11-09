@@ -1,35 +1,35 @@
-# LF3 - LS 3.1: BYOD im WLAN
-## Antworten zum Text „Funkübersicht" (c't, 2015, Heft 15)
+# 📡 LF3 - LS 3.1: BYOD im WLAN
+## ✅ Antworten zum Text „Funkübersicht" (c't, 2015, Heft 15)
 
 ---
 
-## Antwort 1: Bruttorate vs. Nettorate
+## 1️⃣ Antwort 1: 📊 Bruttorate vs. Nettorate
 
-**Warum kommt von der Bruttorate auf Anwendungsebene stets deutlich weniger an?**
+**❓ Warum kommt von der Bruttorate auf Anwendungsebene stets deutlich weniger an?**
 
 Die Bruttodatenrate gibt die theoretisch maximal mögliche Übertragungsgeschwindigkeit an. Auf Anwendungsebene kommt jedoch deutlich weniger an, weil:
 
-1. **Zugriffsprotokoll mit Sendepausen:** Wenn ein WLAN-Teilnehmer sendet, müssen die anderen auf dem Funkkanal schweigen, damit die Daten ungestört ankommen. Alle Geräte in Reichweite teilen sich das Medium Funk.
+1. **⏸️ Zugriffsprotokoll mit Sendepausen:** Wenn ein WLAN-Teilnehmer sendet, müssen die anderen auf dem Funkkanal schweigen, damit die Daten ungestört ankommen. Alle Geräte in Reichweite teilen sich das Medium Funk.
 
-2. **Protokoll-Overhead:**
+2. **📦 Protokoll-Overhead:**
    - Management-Frames (Beacons, Acknowledgements)
    - Header-Informationen in jedem Datenpaket
    - Fehlerkorrektur und Prüfsummen
 
-3. **Wartezeiten (CSMA/CA):**
+3. **⏳ Wartezeiten (CSMA/CA):**
    - Carrier Sense Multiple Access with Collision Avoidance
    - Geräte müssen auf freien Kanal warten
    - Zufällige Backoff-Zeiten nach Kollisionen
 
-4. **Verschlüsselung:** Zusätzlicher Overhead durch WPA2/WPA3
+4. **🔐 Verschlüsselung:** Zusätzlicher Overhead durch WPA2/WPA3
 
-5. **Signalqualität:** Bei schlechterem SNR (Signal to Noise Ratio) wird auf robustere, aber langsamere Modulationsarten zurückgeschaltet
+5. **📉 Signalqualität:** Bei schlechterem SNR (Signal to Noise Ratio) wird auf robustere, aber langsamere Modulationsarten zurückgeschaltet
 
-**Typischer Netto-Durchsatz:** Ca. 50-70% der Bruttorate im optimalen Fall
+**✅ Typischer Netto-Durchsatz:** Ca. 50-70% der Bruttorate im optimalen Fall
 
 ---
 
-## Antwort 2: WLAN-Standards und Frequenzbänder
+## 2️⃣ Antwort 2: 📶 WLAN-Standards und Frequenzbänder
 
 **Welche WLAN-Standards nutzen welche Frequenzbänder?**
 
@@ -57,11 +57,11 @@ Die Bruttodatenrate gibt die theoretisch maximal mögliche Übertragungsgeschwin
 
 ---
 
-## Antwort 3: Kanäle in den Frequenzbändern
+## 3️⃣ Antwort 3: 📻 Kanäle in den Frequenzbändern
 
-**Wie viele Kanäle werden in den Frequenzbändern angeboten?**
+**🔢 Wie viele Kanäle werden in den Frequenzbändern angeboten?**
 
-### 2,4-GHz-Band (2,400 - 2,485 GHz)
+### 📶 2,4-GHz-Band (2,400 - 2,485 GHz)
 
 **Kanäle:** 13 Kanäle (in Europa), jeder 20 MHz breit
 - Kanal 1: 2,412 GHz
