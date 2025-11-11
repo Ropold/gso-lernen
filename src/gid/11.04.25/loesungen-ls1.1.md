@@ -62,7 +62,8 @@
 
 **✅ Lösung:**
 - **2. Der Mindesturlaubsanspruch gemäß Bundesurlaubsgesetz beträgt 24 Werktage.** ✓
-
+- Sonn und Feiertage zählen nicht als Werktage.**
+- arbeitstage die festgelegt sind (Mo-Sa = 5 Tage/Woche)**
 **📖 Begründung:** Nach § 3 BUrlG beträgt der Mindesturlaub 24 Werktage bei einer 6-Tage-Woche (Montag bis Samstag). Fehlt eine Regelung im Arbeitsvertrag und besteht keine Tarifbindung, gilt automatisch der gesetzliche Mindesturlaubsanspruch. Der Vertrag ist nicht nichtig.
 
 ---
@@ -79,6 +80,7 @@
 ### 2️⃣ Ruhepausen für Jugendliche
 **✅ Lösung:** **c) Länger als fünf Stunden hintereinander dürfen Jugendliche nicht ohne Ruhepausen beschäftigt werden.** ✓
 
+**✅ A ist laut ihk richtig
 **📖 Begründung:** Nach § 11 JArbSchG dürfen Jugendliche nicht mehr als viereinhalb Stunden ohne Ruhepause beschäftigt werden. Die nächstnähere Antwort ist c). Die Pausen werden nicht auf die Arbeitszeit angerechnet, können nicht zu Beginn/Ende liegen und müssen nicht 30 Minuten am Stück sein (15 Minuten sind als Mindestdauer möglich).
 
 ---
