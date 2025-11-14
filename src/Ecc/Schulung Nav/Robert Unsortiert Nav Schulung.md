@@ -23,7 +23,7 @@ no space for all
 | IF Amount = 1234 THEN | gibt kein == |
 | Funktionen heißen in CL | Procedures |
 |  automatische Reaktion auf Systemereignisse, OnInsert(), z.b.
-Table Kunde speichern,
+zeiTable Kunde speichern,
 Page Seite öffnen,
 Codeunit aufrufen,
 Report Druck,
@@ -137,9 +137,6 @@ RunPageLink | Table relation - FIELD muss manuel gemacht werden |
 |  |  |  |
 |  |  |  |
 
-2-42
-
-3-53
 
 codeuUnit
 
@@ -171,14 +168,29 @@ codeuUnit
 | Var_Integer := MAXSTRLEN(Var_Text) | - länge von strings |  |
 | OP-Plus |  |  |
 
-```java
-NOT OR ANS XOR
 
-IF NOT IN 
+Var_text2 := COPYSTR(Var_text)	kopiert
+Var_Integer := MAXSTRLEN(Var_Text)	- länge von strings
+OP-Plus		
+symbol menu zeigt verfügbare funktionen		
+MESSAGE('The value of %1 is %2','Amount',Amount);	%1 und %2 sind platzhalter
+"When Was It" := DMY2DATE(9,10,2004);		
+expressions	einfache formeln +- etc
+7*5 > 6*6	wird 35 mit 36 verglichen
+G_	Gloabal
+L_	Lokal
+record var wie die tabelle		
+statement	IF WHILE etc, 	
+bei parameter der haken links ist für return und verändert den wert	call by value, call by referenz
+& macht punkte 	+/ zeilenumbruch
+wichtig!!!		
+customer.SETCURRENTKEY()	vorschlag für sql, 	
+customer.SETRANGE()	(”No”, ’d10000’, ‘D69999’)
+customer.SETFILTER()	(Name, ‘M??er’)
 
-IF (item = 23) OR (item = 27) AND
+customer.find(’-’);		
+customer.get	ein datensatz anhand des keys
+Var_Dec.init	var auf 0 setzten
+customer.reset	filter etc entfernen
 
-IF item = 27 
-
-	   
-```
+customer.insert(true)	bei true wird onInsert getriggert	

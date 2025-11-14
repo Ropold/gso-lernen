@@ -169,6 +169,42 @@ Ein Statement sagt dem System: "Mach das!"
 ### Buchungscode
 22 - Buchungscode Unit - Item Jnl - Post-Line (ganz unten leeres Field)
 
+### Record-Operationen und wichtige Funktionen
+
+| Operation | Syntax | Beschreibung |
+| --- | --- | --- |
+| `SETCURRENTKEY()` | `customer.SETCURRENTKEY()` | Vorschlag für SQL |
+| `SETRANGE()` | `customer.SETRANGE("No", 'd10000', 'D69999')` | Bereichsfilter setzen |
+| `SETFILTER()` | `customer.SETFILTER(Name, 'M??er')` | Filter mit Platzhaltern |
+| `find('-')` | `customer.find('-')` | Datensatz suchen |
+| `get` | `customer.get` | Ein Datensatz anhand des Keys |
+| `init` | `Var_Dec.init` | Variable auf 0 setzen |
+| `reset` | `customer.reset` | Filter etc. entfernen |
+| `insert(true)` | `customer.insert(true)` | Bei true wird OnInsert getriggert |
+
+### Weitere wichtige Funktionen
+
+| Funktion | Syntax | Beschreibung |
+| --- | --- | --- |
+| Symbol Menu | | Zeigt verfügbare Funktionen |
+| MESSAGE | `MESSAGE('The value of %1 is %2','Amount',Amount);` | %1 und %2 sind Platzhalter |
+| DMY2DATE | `"When Was It" := DMY2DATE(9,10,2004);` | Datum erstellen |
+| Expressions | `7*5 > 6*6` | Einfache Formeln +- etc, wird 35 mit 36 verglichen |
+
+### Variablen-Präfixe
+
+| Präfix | Bedeutung |
+| --- | --- |
+| `G_` | Global |
+| `L_` | Lokal |
+
+### Parameter und weitere Konzepte
+
+- **Record Var**: Wie die Tabelle
+- **Statement**: IF, WHILE etc.
+- **Parameter**: Haken links ist für return und verändert den Wert (call by value, call by reference)
+- **& macht Punkte, + Zeilenumbruch**
+
 ## 10. Felder (Fields)
 
 ### Field Properties
