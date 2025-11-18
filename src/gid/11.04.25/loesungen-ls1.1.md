@@ -78,10 +78,13 @@
 ---
 
 ### 2️⃣ Ruhepausen für Jugendliche
-**✅ Lösung:** **c) Länger als fünf Stunden hintereinander dürfen Jugendliche nicht ohne Ruhepausen beschäftigt werden.** ✓
+**✅ Lösung:** **a) Ruhepausen betragen insgesamt mindestens 60 Minuten bei einer Arbeitszeit von mehr als sechs Stunden täglich.** ✓
 
-**✅ A ist laut ihk richtig
-**📖 Begründung:** Nach § 11 JArbSchG dürfen Jugendliche nicht mehr als viereinhalb Stunden ohne Ruhepause beschäftigt werden. Die nächstnähere Antwort ist c). Die Pausen werden nicht auf die Arbeitszeit angerechnet, können nicht zu Beginn/Ende liegen und müssen nicht 30 Minuten am Stück sein (15 Minuten sind als Mindestdauer möglich).
+**📖 Begründung:** Nach § 11 JArbSchG gilt:
+- Bei mehr als 4,5 bis zu 6 Stunden Arbeitszeit: mindestens 30 Minuten Pause
+- Bei mehr als 6 Stunden Arbeitszeit: mindestens 60 Minuten Pause
+- Jugendliche dürfen maximal 4,5 Stunden (nicht 5!) ohne Pause arbeiten
+- Die Pausen werden nicht auf die Arbeitszeit angerechnet (b falsch), können nicht zu Beginn/Ende liegen (d falsch), und müssen mindestens 15 Minuten (nicht 30!) am Stück sein (f falsch).
 
 ---
 
