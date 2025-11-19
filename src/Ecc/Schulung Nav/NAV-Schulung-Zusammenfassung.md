@@ -273,7 +273,7 @@ Bei `insert(true)` wird OnInsert getriggert
 | 100.000 - 999.999 | Temporär - Upgrade unbekannt | |
 | 1.000.000 - 9.999.999 | Zertifizierte Module, Branchenlösungen (Gob, Cosmo, Kumavision) | **WIR NICHT** |
 | 99.000.000 | Navision Manufacturing | |
-| 5.000.000 | OPI - Extension | |
+| 5.000.000 | OP - Extension | |
 
 ## 14. Compile-Prozess
 
